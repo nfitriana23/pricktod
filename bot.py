@@ -183,7 +183,7 @@ class PrickTod:
                 self.log(f"{hijau}account number : {putih}{no + 1}")
                 self.game(id)
                 print("~" * 50)
-
+            time.sleep(600)
             end = int(time.time())
             total = end - start
             if total > self.DEFAULT_COUNTDOWN:
